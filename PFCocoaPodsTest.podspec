@@ -27,4 +27,14 @@ Pod::Spec.new do |s|
     ss.source_files = 'PFCocoaPodsTest/TestOne.{h,m}'
     ss.public_header_files = 'PFCocoaPodsTest/TestOne.h'
   end
+
+  s.subspec 'Three' do |ss|
+    ss.source_files = 'PFCocoaPodsTest/TestTwo.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/TestTwo.h'
+  end
+
+  s.subspec 'Two' do |ss|
+    ss.source_files = 'PFCocoaPodsTest/TestThree.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/TestThree.h'
+  end
 end
