@@ -5,10 +5,22 @@
       location = "group:PFCocoaPodsTest"
       name = "PFCocoaPodsTest">
       <FileRef
-         location = "group:PFCocoaPodsTest.h">
+         location = "group:TestOne.h">
       </FileRef>
       <FileRef
-         location = "group:PFCocoaPodsTest.m">
+         location = "group:TestOne.m">
+      </FileRef>
+      <FileRef
+         location = "group:TestTwo.h">
+      </FileRef>
+      <FileRef
+         location = "group:TestTwo.m">
+      </FileRef>
+      <FileRef
+         location = "group:TestThree.h">
+      </FileRef>
+      <FileRef
+         location = "group:TestThree.m">
       </FileRef>
    </Group>
    <FileRef
