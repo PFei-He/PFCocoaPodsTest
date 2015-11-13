@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45030EEF1BF62DC100865D05 /* TestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 45030EEA1BF62DC100865D05 /* TestOne.m */; };
+		45030EF01BF62DC100865D05 /* TestThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 45030EEC1BF62DC100865D05 /* TestThree.m */; };
+		45030EF11BF62DC100865D05 /* TestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45030EEE1BF62DC100865D05 /* TestTwo.m */; };
 		456225B91BF579F9008202A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225B81BF579F9008202A7 /* main.m */; };
 		456225BC1BF579F9008202A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225BB1BF579F9008202A7 /* AppDelegate.m */; };
 		456225C41BF579F9008202A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456225C31BF579F9008202A7 /* Assets.xcassets */; };
@@ -15,10 +18,15 @@
 		456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225DB1BF57A4A008202A7 /* RootViewController.m */; };
 		456225DE1BF57B2C008202A7 /* Demo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 456225DD1BF57B2C008202A7 /* Demo.txt */; };
 		456225E11BF57B4E008202A7 /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225E01BF57B4E008202A7 /* RootModel.m */; };
-		4565BAFB1BF5D3BA00389EA9 /* PFCocoaPodsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565BAFA1BF5D3BA00389EA9 /* PFCocoaPodsTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45030EE91BF62DC100865D05 /* TestOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOne.h; sourceTree = "<group>"; };
+		45030EEA1BF62DC100865D05 /* TestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOne.m; sourceTree = "<group>"; };
+		45030EEB1BF62DC100865D05 /* TestThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThree.h; sourceTree = "<group>"; };
+		45030EEC1BF62DC100865D05 /* TestThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThree.m; sourceTree = "<group>"; };
+		45030EED1BF62DC100865D05 /* TestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo.h; sourceTree = "<group>"; };
+		45030EEE1BF62DC100865D05 /* TestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo.m; sourceTree = "<group>"; };
 		456225B41BF579F9008202A7 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456225B81BF579F9008202A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		456225BA1BF579F9008202A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,8 +41,6 @@
 		456225DF1BF57B4E008202A7 /* RootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModel.h; sourceTree = "<group>"; };
 		456225E01BF57B4E008202A7 /* RootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
 		456225E21BF57B8A008202A7 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
-		4565BAF91BF5D3BA00389EA9 /* PFCocoaPodsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFCocoaPodsTest.h; sourceTree = "<group>"; };
-		4565BAFA1BF5D3BA00389EA9 /* PFCocoaPodsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFCocoaPodsTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45030EE81BF62DC100865D05 /* PFCocoaPodsTest */ = {
+			isa = PBXGroup;
+			children = (
+				45030EE91BF62DC100865D05 /* TestOne.h */,
+				45030EEA1BF62DC100865D05 /* TestOne.m */,
+				45030EEB1BF62DC100865D05 /* TestThree.h */,
+				45030EEC1BF62DC100865D05 /* TestThree.m */,
+				45030EED1BF62DC100865D05 /* TestTwo.h */,
+				45030EEE1BF62DC100865D05 /* TestTwo.m */,
+			);
+			name = PFCocoaPodsTest;
+			path = ../../../PFCocoaPodsTest;
+			sourceTree = "<group>";
+		};
 		456225AB1BF579F9008202A7 = {
 			isa = PBXGroup;
 			children = (
@@ -136,19 +156,9 @@
 		456225D71BF57A33008202A7 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4565BAF81BF5D3BA00389EA9 /* PFCocoaPodsTest */,
+				45030EE81BF62DC100865D05 /* PFCocoaPodsTest */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		4565BAF81BF5D3BA00389EA9 /* PFCocoaPodsTest */ = {
-			isa = PBXGroup;
-			children = (
-				4565BAF91BF5D3BA00389EA9 /* PFCocoaPodsTest.h */,
-				4565BAFA1BF5D3BA00389EA9 /* PFCocoaPodsTest.m */,
-			);
-			name = PFCocoaPodsTest;
-			path = ../../../PFCocoaPodsTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				456225BC1BF579F9008202A7 /* AppDelegate.m in Sources */,
-				4565BAFB1BF5D3BA00389EA9 /* PFCocoaPodsTest.m in Sources */,
 				456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */,
+				45030EF01BF62DC100865D05 /* TestThree.m in Sources */,
+				45030EF11BF62DC100865D05 /* TestTwo.m in Sources */,
 				456225B91BF579F9008202A7 /* main.m in Sources */,
+				45030EEF1BF62DC100865D05 /* TestOne.m in Sources */,
 				456225E11BF57B4E008202A7 /* RootModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
