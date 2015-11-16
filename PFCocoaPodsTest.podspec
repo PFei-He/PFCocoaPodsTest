@@ -11,17 +11,17 @@ Pod::Spec.new do |s|
   s.source_files            = "PFCocoaPodsTest", "PFCocoaPodsTest/**/*.{h,m}"
   s.requires_arc            = true
   s.subspec 'One' do |ss|
-    ss.source_files = 'PFCocoaPodsTest/TestOne.{h,m}'
-    ss.public_header_files = 'PFCocoaPodsTest/TestOne.h'
+    ss.source_files = 'PFCocoaPodsTest/One/TestOne.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/One/TestOne.h'
   end
 
   s.subspec 'Three' do |ss|
-    ss.source_files = 'PFCocoaPodsTest/TestTwo.{h,m}'
-    ss.public_header_files = 'PFCocoaPodsTest/TestTwo.h'
+    ss.source_files = 'PFCocoaPodsTest/Two/TestTwo.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/Two/TestTwo.h'
   end
 
   s.subspec 'Two' do |ss|
-    ss.source_files = 'PFCocoaPodsTest/TestThree.{h,m}'
-    ss.public_header_files = 'PFCocoaPodsTest/TestThree.h'
+    ss.source_files = 'PFCocoaPodsTest/Three/TestThree.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/Three/TestThree.h'
   end
 end
