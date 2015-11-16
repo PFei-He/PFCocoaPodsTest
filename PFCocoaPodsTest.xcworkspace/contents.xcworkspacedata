@@ -5,33 +5,33 @@
       location = "group:PFCocoaPodsTest"
       name = "PFCocoaPodsTest">
       <Group
-         location = "container:"
+         location = "group:One"
          name = "One">
          <FileRef
-            location = "group:PFCocoaPodsTest/TestOne.h">
+            location = "group:TestOne.h">
          </FileRef>
          <FileRef
-            location = "group:PFCocoaPodsTest/TestOne.m">
+            location = "group:TestOne.m">
          </FileRef>
       </Group>
       <Group
-         location = "container:"
+         location = "group:Three"
          name = "Three">
          <FileRef
-            location = "group:PFCocoaPodsTest/TestThree.h">
+            location = "group:TestThree.h">
          </FileRef>
          <FileRef
-            location = "group:PFCocoaPodsTest/TestThree.m">
+            location = "group:TestThree.m">
          </FileRef>
       </Group>
       <Group
-         location = "container:"
+         location = "group:Two"
          name = "Two">
          <FileRef
-            location = "group:PFCocoaPodsTest/TestTwo.h">
+            location = "group:TestTwo.h">
          </FileRef>
          <FileRef
-            location = "group:PFCocoaPodsTest/TestTwo.m">
+            location = "group:TestTwo.m">
          </FileRef>
       </Group>
    </Group>
