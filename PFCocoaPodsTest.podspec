@@ -10,4 +10,18 @@ Pod::Spec.new do |s|
   s.source                  = { :git => "https://github.com/PFei-He/PFCocoaPodsTest.git", :tag => s.version }
   s.source_files            = "PFCocoaPodsTest", "PFCocoaPodsTest/**/*.{h,m}"
   s.requires_arc            = true
+  s.subspec 'One' do |ss|
+    ss.source_files = 'PFCocoaPodsTest/TestOne.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/TestOne.h'
+  end
+
+  s.subspec 'Three' do |ss|
+    ss.source_files = 'PFCocoaPodsTest/TestTwo.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/TestTwo.h'
+  end
+
+  s.subspec 'Two' do |ss|
+    ss.source_files = 'PFCocoaPodsTest/TestThree.{h,m}'
+    ss.public_header_files = 'PFCocoaPodsTest/TestThree.h'
+  end
 end
