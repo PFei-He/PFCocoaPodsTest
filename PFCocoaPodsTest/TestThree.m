@@ -1,5 +1,5 @@
 //
-//  TestTwo.h
+//  TestThree.m
 //  PFCocoaPodsTest
 //
 //  Created by PFei_He on 15/11/13.
@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFCocoaPodsTest
 //
-//  vesion: 0.0.6
+//  vesion: 0.0.7
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -28,8 +28,8 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
+#import "TestThree.h"
 
-@interface TestTwo : NSObject
+@implementation TestThree
 
 @end
