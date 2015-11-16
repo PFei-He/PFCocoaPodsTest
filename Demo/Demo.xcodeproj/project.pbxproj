@@ -15,6 +15,9 @@
 		456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225DB1BF57A4A008202A7 /* RootViewController.m */; };
 		456225DE1BF57B2C008202A7 /* Demo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 456225DD1BF57B2C008202A7 /* Demo.txt */; };
 		456225E11BF57B4E008202A7 /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225E01BF57B4E008202A7 /* RootModel.m */; };
+		458870A51BF981E800437C08 /* TestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588709E1BF981E800437C08 /* TestOne.m */; };
+		458870A61BF981E800437C08 /* TestThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 458870A11BF981E800437C08 /* TestThree.m */; };
+		458870A71BF981E800437C08 /* TestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 458870A41BF981E800437C08 /* TestTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		456225DF1BF57B4E008202A7 /* RootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModel.h; sourceTree = "<group>"; };
 		456225E01BF57B4E008202A7 /* RootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
 		456225E21BF57B8A008202A7 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		4588709D1BF981E800437C08 /* TestOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOne.h; sourceTree = "<group>"; };
+		4588709E1BF981E800437C08 /* TestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOne.m; sourceTree = "<group>"; };
+		458870A01BF981E800437C08 /* TestThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThree.h; sourceTree = "<group>"; };
+		458870A11BF981E800437C08 /* TestThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThree.m; sourceTree = "<group>"; };
+		458870A31BF981E800437C08 /* TestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo.h; sourceTree = "<group>"; };
+		458870A41BF981E800437C08 /* TestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +142,47 @@
 		456225D71BF57A33008202A7 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				4588709B1BF981E800437C08 /* PFCocoaPodsTest */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4588709B1BF981E800437C08 /* PFCocoaPodsTest */ = {
+			isa = PBXGroup;
+			children = (
+				4588709C1BF981E800437C08 /* One */,
+				4588709F1BF981E800437C08 /* Three */,
+				458870A21BF981E800437C08 /* Two */,
+			);
+			name = PFCocoaPodsTest;
+			path = ../../../PFCocoaPodsTest;
+			sourceTree = "<group>";
+		};
+		4588709C1BF981E800437C08 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				4588709D1BF981E800437C08 /* TestOne.h */,
+				4588709E1BF981E800437C08 /* TestOne.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		4588709F1BF981E800437C08 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				458870A01BF981E800437C08 /* TestThree.h */,
+				458870A11BF981E800437C08 /* TestThree.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		458870A21BF981E800437C08 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				458870A31BF981E800437C08 /* TestTwo.h */,
+				458870A41BF981E800437C08 /* TestTwo.m */,
+			);
+			path = Two;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +258,10 @@
 			files = (
 				456225BC1BF579F9008202A7 /* AppDelegate.m in Sources */,
 				456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */,
+				458870A61BF981E800437C08 /* TestThree.m in Sources */,
+				458870A71BF981E800437C08 /* TestTwo.m in Sources */,
 				456225B91BF579F9008202A7 /* main.m in Sources */,
+				458870A51BF981E800437C08 /* TestOne.m in Sources */,
 				456225E11BF57B4E008202A7 /* RootModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
